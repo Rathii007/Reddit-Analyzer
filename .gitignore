@@ -21,3 +21,4 @@ node_modules/
 # Other environment files
 .env.local
 .env.*
+.env
