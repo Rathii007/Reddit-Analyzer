@@ -1,0 +1,23 @@
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+venv/
+.env
+*.pyc
+__pycache__/
+
+# Node modules (in case someone installs at root)
+node_modules/
+
+# VSCode settings (optional)
+.vscode/
+
+# Other environment files
+.env.local
+.env.*
