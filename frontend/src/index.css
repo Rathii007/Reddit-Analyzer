@@ -156,3 +156,18 @@ button:disabled {
 .prose {
   color: var(--prose-text) !important;
 }
+[data-theme="dark"] {
+  --card: #1f2937;
+  --input: #374151;
+  --text: #ffffff;
+  --accent: #f97316;
+  --primary: #ff4500;
+}
+
+[data-theme="light"] {
+  --card: #ffffff;
+  --input: #e5e7eb;
+  --text: #1f2937;
+  --accent: #f97316;
+  --primary: #ff4500;
+}
