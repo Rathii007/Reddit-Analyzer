@@ -1,90 +1,133 @@
-# Reddit Analyzer
 
-Welcome to **Reddit Analyzer**, a powerful web application designed to provide deep insights into Reddit user activity. Analyze toxicity scores, predict viral posts, explore your Reddit history with the Time Machine, and discover new subreddits—all in one place! This project showcases modern web development techniques with a sleek, interactive interface.
+# 🚀 Reddit Analyzer
 
-**[Live Demo](https://reddit-analyzer-frontend.vercel.app/)**
+Welcome to **Reddit Analyzer** – a one-developer-powered web application that delivers deep insights into Reddit user activity. Built from the ground up with modern technologies and playful AI features, this tool uncovers toxicity, predicts viral posts, compares subreddits, and more — all in a sleek and interactive interface.
 
-## Features
+🔗 **[Live Demo](https://reddit-analyzer-frontend.vercel.app/)**  
+📸 **Screenshots:** [Landing Page](#screenshots) | [Analyzer Interface](#screenshots)
 
-- **Toxicity Score**: Measure the toxicity level of a user's comments and posts.
-- **Viral Post Prediction**: Get actionable tips to create Reddit posts with high viral potential.
-- **Time Machine**: Explore your oldest posts and comments on Reddit.
-- **Sentiment Analysis**: Understand the sentiment behind subreddit activity.
-- **Subreddit Recommendations**: Discover new communities based on your interests.
-- **Subreddit Roast & User Roast**: Fun, AI-generated roasts for subreddits and users.
-- **Reddit Therapist**: A playful feature to reflect on your Reddit experience.
-- **Compare Subreddits**: Compare activity and sentiment across subreddits.
-- **Dynamic Theme**: Switch between light and dark modes with a particle-animated background.
-- **Enhanced Landing Page**: Interactive hero section, live demo signup, stats, testimonials, and FAQs.
+---
 
-## Screenshots
+## 🌟 Features
 
-![Landing Page](https://via.placeholder.com/1200x600.png?text=Reddit+Analyzer+Landing+Page)  
-![Analyze Interface](https://via.placeholder.com/1200x600.png?text=Reddit+Analyzer+Tabs)
+- 🔥 **Toxicity Score** – Measure toxicity in a user's comments and posts using AI.
+- 🚀 **Viral Post Prediction** – Get practical tips to boost your post's chances of going viral.
+- ⏳ **Time Machine** – Revisit your oldest Reddit content.
+- 💬 **Sentiment Analysis** – Analyze the emotional tone within subreddits.
+- 🧭 **Subreddit Recommendations** – Discover new communities tailored to your interests.
+- 🥊 **Subreddit & User Roast** – Enjoy fun, AI-generated roasts for entertainment.
+- 🛋️ **Reddit Therapist** – Reflect on your Reddit activity in a lighthearted way.
+- ⚖️ **Compare Subreddits** – See how communities stack up in sentiment and activity.
+- 🌓 **Theme Switcher** – Toggle between light and dark themes with animated backgrounds.
+- 🧩 **Landing Page** – Features a dynamic hero section, interactive components, testimonials, and FAQs.
 
-*(Replace the placeholder URLs with actual screenshots of your app's landing page and tabbed interface.)*
+---
 
-## Technologies Used
+## 🖼️ Screenshots
 
-- **Frontend**: React.js, Tailwind CSS, Framer Motion
-- **Libraries**: Axios (API integration), react-tsparticles (background effects)
-- **Routing**: React Router DOM
-- **Backend**: Node.js (assumed for API)
-- **Deployment**: Vercel (frontend), Render (backend)
-- **Other**: Git, JavaScript, CSS
 
-## Installation
+![Landing Page](https://drive.google.com/uc?export=view&id=1Tjk-nSFm2-n1T28hBY_X4Lklu-1Ndvp2)  
+*Landing page with animated effects and feature highlights*
 
-To run this project locally, follow these steps:
+![Analyzer Interface](https://drive.google.com/uc?export=view&id=1va5fSrio7UbEN7P2ge4ne-sSviZqwdb6)  
+*Tabbed UI for accessing various analysis tools*
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/reddit-analyzer.git
-   cd reddit-analyzer
-Install Dependencies
-bash
+---
 
-Copy
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React.js
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
+
+**Libraries:**
+- Axios – API requests
+- react-tsparticles – Animated particle background
+
+**Backend:**
+- Node.js (optional depending on feature use)
+
+**Deployment:**
+- Vercel – Frontend hosting
+- Render – Backend API (if applicable)
+
+---
+
+## 🚧 Local Setup
+
+To run the project locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Rathii007/reddit-analyzer.git
+cd reddit-analyzer
+```
+
+### 2. Install Dependencies
+
+```bash
 npm install
-Set Up Environment Variables
-Create a .env file in the root directory.
-Add your API keys or backend URL (if applicable):
-text
+```
 
-Copy
+### 3. Add Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
 REACT_APP_API_URL=https://your-backend-url
-Start the Development Server
-bash
+```
 
-Copy
+### 4. Start the Development Server
+
+```bash
 npm start
-Open http://localhost:3000 in your browser to see the app.
-Usage
-Visit the live demo or run locally.
-Navigate using the header or the "Get Started" button on the landing page to access the analysis tools.
-Use the tabbed interface to switch between features like Toxicity Score, Viral Post Prediction, etc.
-Toggle between light and dark themes using the theme switcher.
-Sign up for updates via the live demo email form on the landing page.
-Contributing
-Contributions are welcome! To contribute:
+```
 
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Make your changes and commit them (git commit -m "Add your message").
-Push to the branch (git push origin feature/your-feature).
-Open a pull request with a description of your changes.
-Please ensure your code follows the project's style guidelines and includes tests where applicable.
+Visit [http://localhost:3000](http://localhost:3000) to start exploring.
 
-License
-This project is licensed under the . Feel free to use, modify, and distribute it as per the license terms.
+---
 
-Acknowledgments
-Thanks to the open-source community for tools like React, Tailwind CSS, and react-tsparticles.
-Inspired by the vibrant Reddit community and its diverse user base.
-Contact
-For questions or feedback, reach out at your.email@example.com or connect with me on:
+## 💡 Usage Guide
 
-GitHub
-LinkedIn
-Twitter
-Happy analyzing! 🚀
+- Navigate through the landing page or use the tab bar for analysis tools.
+- Toggle between light and dark themes in real time.
+- Use features like toxicity scoring, subreddit roast, and sentiment analysis from a single UI.
+- Try the Time Machine or AI Therapist for fun, introspective insights.
+
+---
+
+## ✨ About the Developer
+
+Hi! I'm the **sole developer** of Reddit Analyzer.  
+This project was built as a passion project to blend web development, data analysis, and humor—all inspired by the unique energy of the Reddit community.
+
+If you'd like to connect or collaborate, reach out below!
+
+---
+
+## 📬 Contact
+
+- **Email:** mayankrathi72@gmail.com  
+- **GitHub:** [@Rathii007](https://github.com/Rathii007)  
+- **LinkedIn:** [Mayank Rathi](https://linkedin.com/in/mayank-rathi07/)  
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — feel free to use, modify, and share.
+
+---
+
+## 🙏 Acknowledgments
+
+- Open-source tools like React, Tailwind CSS, and Framer Motion
+- The amazing Reddit community that inspired the core idea
+- AI APIs and libraries that bring the “fun” features to life
+
+---
+
+**Enjoy your Reddit insights!** 🔍✨
